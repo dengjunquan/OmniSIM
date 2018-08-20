@@ -1,0 +1,793 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "bbox": [
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bertelsmann Building",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building:material": "glass",
+                "building:part": "yes",
+                "height": "20",
+                "roof:material": "concrete",
+                "roof:shape": "flat"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98273747099,
+                            40.76017902193
+                        ],
+                        [
+                            -73.98241070000,
+                            40.76063390000
+                        ],
+                        [
+                            -73.98315210000,
+                            40.76094520000
+                        ],
+                        [
+                            -73.98348794275,
+                            40.76048123698
+                        ],
+                        [
+                            -73.98273747099,
+                            40.76017902193
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "height": "23.1",
+                "nycdoitt:bin": "1024779"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98482067636,
+                            40.75920010542
+                        ],
+                        [
+                            -73.98493896807,
+                            40.75906649164
+                        ],
+                        [
+                            -73.98504125035,
+                            40.75910886957
+                        ],
+                        [
+                            -73.98497400244,
+                            40.75926271613
+                        ],
+                        [
+                            -73.98482067636,
+                            40.75920010542
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "height": "68.5",
+                "nycdoitt:bin": "1022699"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98226984578,
+                            40.75914388156
+                        ],
+                        [
+                            -73.98394825835,
+                            40.75984977271
+                        ],
+                        [
+                            -73.98361770000,
+                            40.76032630000
+                        ],
+                        [
+                            -73.98191414672,
+                            40.75961470052
+                        ],
+                        [
+                            -73.98226984578,
+                            40.75914388156
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "height": "15.5",
+                "nycdoitt:bin": "1022687"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98376901172,
+                            40.75925805475
+                        ],
+                        [
+                            -73.98416947796,
+                            40.75942744399
+                        ],
+                        [
+                            -73.98420331827,
+                            40.75944452862
+                        ],
+                        [
+                            -73.98422257889,
+                            40.75946465695
+                        ],
+                        [
+                            -73.98422068032,
+                            40.75948910078
+                        ],
+                        [
+                            -73.98406842946,
+                            40.75969039426
+                        ],
+                        [
+                            -73.98203944184,
+                            40.75883598355
+                        ],
+                        [
+                            -73.98237447898,
+                            40.75836795790
+                        ],
+                        [
+                            -73.98394241588,
+                            40.75900719239
+                        ],
+                        [
+                            -73.98376901172,
+                            40.75925805475
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:city": "New York",
+                "addr:housenumber": "1600",
+                "addr:postcode": "10019",
+                "addr:street": "Broadway",
+                "building": "commercial",
+                "building:colour": "#879B92",
+                "building:material": "glass",
+                "building:part": "yes",
+                "height": "15",
+                "name": "1600 Broadway",
+                "nycdoitt:bin": "1087187",
+                "roof:material": "concrete",
+                "roof:shape": "flat",
+                "start_date": "2006"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.98458335789,
+                        40.76015650161
+                    ],
+                    [
+                        -73.98428989558,
+                        40.76003409516
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building:part": "yes",
+                "height": "219",
+                "roof:height": "10",
+                "roof:material": "metal",
+                "roof:shape": "pyramidal"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98692612008,
+                            40.76091707398
+                        ],
+                        [
+                            -73.98726797092,
+                            40.76042658154
+                        ],
+                        [
+                            -73.98539198451,
+                            40.75967838245
+                        ],
+                        [
+                            -73.98533064715,
+                            40.75976022750
+                        ],
+                        [
+                            -73.98522508408,
+                            40.75972475873
+                        ],
+                        [
+                            -73.98504959403,
+                            40.75999524014
+                        ],
+                        [
+                            -73.98514556793,
+                            40.76003833415
+                        ],
+                        [
+                            -73.98508456818,
+                            40.76013005907
+                        ],
+                        [
+                            -73.98692612008,
+                            40.76091707398
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "News Corp. Building",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:city": "New York",
+                "addr:housenumber": "745",
+                "addr:postcode": "10019",
+                "addr:street": "7th Avenue",
+                "building": "commercial",
+                "name": "Barclays",
+                "nycdoitt:bin": "1084667",
+                "start_date": "2002"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98273747099,
+                            40.76017902193
+                        ],
+                        [
+                            -73.98348794275,
+                            40.76048123698
+                        ],
+                        [
+                            -73.98315210000,
+                            40.76094520000
+                        ],
+                        [
+                            -73.98241070000,
+                            40.76063390000
+                        ],
+                        [
+                            -73.98273747099,
+                            40.76017902193
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "height": "23.1",
+                "nycdoitt:bin": "1024779"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98392775197,
+                            40.76046582487
+                        ],
+                        [
+                            -73.98428989558,
+                            40.76003409516
+                        ],
+                        [
+                            -73.98458335789,
+                            40.76015650161
+                        ],
+                        [
+                            -73.98435385478,
+                            40.76063602561
+                        ],
+                        [
+                            -73.98392775197,
+                            40.76046582487
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crowne Plaza Times Square",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "height": "19.5",
+                "nycdoitt:bin": "1083727"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98551174615,
+                            40.75888937186
+                        ],
+                        [
+                            -73.98776674447,
+                            40.75979525915
+                        ],
+                        [
+                            -73.98738495591,
+                            40.76027779732
+                        ],
+                        [
+                            -73.98526916979,
+                            40.75941151266
+                        ],
+                        [
+                            -73.98551174615,
+                            40.75888937186
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:city": "New York",
+                "addr:country": "US",
+                "addr:housenumber": "1605",
+                "addr:postcode": "10019",
+                "addr:state": "NY",
+                "addr:street": "Broadway",
+                "building": "yes",
+                "internet_access": "wlan",
+                "name": "Crowne Plaza Times Square",
+                "nycdoitt:bin": "1076195",
+                "start_date": "1989",
+                "tourism": "hotel",
+                "website": "http://www.cpmanhattantimessquare.com/",
+                "wheelchair": "yes",
+                "wikidata": "Q5189543"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98550010263,
+                            40.76110876812
+                        ],
+                        [
+                            -73.98467720000,
+                            40.76076970000
+                        ],
+                        [
+                            -73.98491940000,
+                            40.76030510000
+                        ],
+                        [
+                            -73.98494684618,
+                            40.76028785274
+                        ],
+                        [
+                            -73.98497828721,
+                            40.76028110000
+                        ],
+                        [
+                            -73.98501760000,
+                            40.76028540000
+                        ],
+                        [
+                            -73.98536080000,
+                            40.76043030000
+                        ],
+                        [
+                            -73.98582063377,
+                            40.76060972631
+                        ],
+                        [
+                            -73.98550010263,
+                            40.76110876812
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Morgan Stanley Building",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "160 West 47th Street",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:housenumber": "155",
+                "addr:postcode": "10036",
+                "addr:street": "West 46th Street",
+                "building": "yes",
+                "height": "23.4",
+                "nycdoitt:bin": "1022662"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.98289899193,
+                        40.75775993676
+                    ],
+                    [
+                        -73.98254972101,
+                        40.75822595104
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:housenumber": "170",
+                "addr:postcode": "10036",
+                "addr:street": "West 46th Street",
+                "building": "yes",
+                "height": "15.8",
+                "nycdoitt:bin": "1022653"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98376859371,
+                            40.75723578952
+                        ],
+                        [
+                            -73.98534498855,
+                            40.75793056538
+                        ],
+                        [
+                            -73.98501928302,
+                            40.75840291312
+                        ],
+                        [
+                            -73.98340227852,
+                            40.75773118822
+                        ],
+                        [
+                            -73.98376859371,
+                            40.75723578952
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "McGraw-Hill Building",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Biltmore Tower",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "height": "57.3",
+                "nycdoitt:bin": "1022661"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98254972101,
+                            40.75822595104
+                        ],
+                        [
+                            -73.98289899193,
+                            40.75775993676
+                        ],
+                        [
+                            -73.98488678593,
+                            40.75859760637
+                        ],
+                        [
+                            -73.98456862608,
+                            40.75903975321
+                        ],
+                        [
+                            -73.98254972101,
+                            40.75822595104
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:housenumber": "750",
+                "addr:street": "7th Avenue",
+                "building": "commercial",
+                "height": "147.1",
+                "name": "750 Seventh Avenue",
+                "nycdoitt:bin": "1024795",
+                "start_date": "1989",
+                "wikidata": "Q2451328",
+                "wikipedia": "en:750 7th Avenue"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98354910000,
+                            40.76098720000
+                        ],
+                        [
+                            -73.98382430000,
+                            40.76060450000
+                        ],
+                        [
+                            -73.98426190000,
+                            40.76078650000
+                        ],
+                        [
+                            -73.98401857111,
+                            40.76117424253
+                        ],
+                        [
+                            -73.98354910000,
+                            40.76098720000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Exxon Building",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "building": "yes",
+                "nycdoitt:bin": "1024757"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98474439576,
+                            40.75936428890
+                        ],
+                        [
+                            -73.98487400000,
+                            40.75941130000
+                        ],
+                        [
+                            -73.98467830636,
+                            40.75985649443
+                        ],
+                        [
+                            -73.98472640000,
+                            40.75988130000
+                        ],
+                        [
+                            -73.98467440000,
+                            40.75995200000
+                        ],
+                        [
+                            -73.98440740742,
+                            40.75984057217
+                        ],
+                        [
+                            -73.98474439576,
+                            40.75936428890
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "One Astor Place",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Platinum",
+                "type": "building"
+            },
+            "geometry": {
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "addr:housenumber": "1535",
+                "addr:street": "Broadway",
+                "alt_name": "Marriott Marquis",
+                "brand": "Mariott",
+                "building": "yes",
+                "name": "New York Marriott Marquis",
+                "name:en": "New York Marriott Marquis",
+                "name:jp": "ニュヨークマリオットマーキース",
+                "nycdoitt:bin": "1024727",
+                "start_date": "1985",
+                "tourism": "hotel",
+                "website": "http://www.marriott.com/hotels/travel/nycmq-new-york-marriott-marquis/",
+                "wikidata": "Q7013741",
+                "wikipedia": "en:New York Marriott Marquis"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98579020214,
+                            40.75811641754
+                        ],
+                        [
+                            -73.98569304221,
+                            40.75824955664
+                        ],
+                        [
+                            -73.98583890424,
+                            40.75831280246
+                        ],
+                        [
+                            -73.98579660075,
+                            40.75837332166
+                        ],
+                        [
+                            -73.98569995629,
+                            40.75833660433
+                        ],
+                        [
+                            -73.98560360000,
+                            40.75835979133
+                        ],
+                        [
+                            -73.98555185779,
+                            40.75843706083
+                        ],
+                        [
+                            -73.98558947261,
+                            40.75850952619
+                        ],
+                        [
+                            -73.98567407111,
+                            40.75854688702
+                        ],
+                        [
+                            -73.98563908925,
+                            40.75860082776
+                        ],
+                        [
+                            -73.98558338004,
+                            40.75858021022
+                        ],
+                        [
+                            -73.98552139788,
+                            40.75866902213
+                        ],
+                        [
+                            -73.98632680000,
+                            40.75900540000
+                        ],
+                        [
+                            -73.98642280000,
+                            40.75904490000
+                        ],
+                        [
+                            -73.98719324634,
+                            40.75935503966
+                        ],
+                        [
+                            -73.98755503340,
+                            40.75885196675
+                        ],
+                        [
+                            -73.98579020214,
+                            40.75811641754
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
