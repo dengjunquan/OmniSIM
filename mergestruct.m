@@ -1,24 +1,8 @@
 function s=mergestruct(s1,s2)
-%
-% s=mergestruct(s1,s2)
-%
-% merge two struct objects into one
-%
-% authors:Qianqian Fang (q.fang <at> neu.edu)
-% date: 2012/12/22
-%
-% input:
-%      s1,s2: a struct object, s1 and s2 can not be arrays
-%
-% output:
-%      s: the merged struct object. fields in s1 and s2 will be combined in s.
-%
-% license:
-%     BSD License, see LICENSE_BSD.txt files for details 
-%
-% -- this function is part of jsonlab toolbox (http://iso2mesh.sf.net/cgi-bin/index.cgi?jsonlab)
-%
-
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 if(~isstruct(s1) || ~isstruct(s2))
     error('input parameters contain non-struct');
 end

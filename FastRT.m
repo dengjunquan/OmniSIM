@@ -1,5 +1,8 @@
 function path_arrays = FastRT(walls,BSxy,UEs,BouncingOrder)
-
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 phis = (0:0.1:360-0.00001).*pi./180;
 numPhis = length(phis);
 numUEs  = length(UEs);

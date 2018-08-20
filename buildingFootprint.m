@@ -1,4 +1,9 @@
 function walls = buildingFootprint(jsonfilename)
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
+
 % jsonfilename = 'manhattan.json';
 str = fileread(jsonfilename);
 buildings = loadjson(str);

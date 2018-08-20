@@ -1,4 +1,8 @@
 function d = DistanceToLineSegment(P0,P1,P2)
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 d01 = sqrt( (P0(1)-P1(1))^2 +  (P0(2)-P1(2))^2 );
 d02 = sqrt( (P0(1)-P2(1))^2 +  (P0(2)-P2(2))^2 );
 d12 = sqrt( (P2(1)-P1(1))^2 +  (P2(2)-P1(2))^2 );

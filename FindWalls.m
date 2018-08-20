@@ -1,7 +1,8 @@
 function [walls,polygons] = FindWalls(filename)
-% Junquan Deng
-% Aalto University 
-% 2018-08-20
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 index = 0;
 buildings = buildingFootprint(filename);
 walls = cell(length(buildings)*10,1);

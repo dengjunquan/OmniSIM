@@ -1,4 +1,8 @@
 function UEs = FindUEs(numUEs,polygons,cellRadius,BS)
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 factor = 2;
 [UEs,~] = Uniformcircle(factor*numUEs,10,cellRadius);
     UEs = UEs';

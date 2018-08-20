@@ -1,3 +1,8 @@
+
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 close;clear;clc;
 rng(888);
 filename = 'Tsinghua.json';

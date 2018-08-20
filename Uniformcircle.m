@@ -1,6 +1,8 @@
 function [xy,rt]=Uniformcircle(n,r1,r2)
-% Junquan Deng
-% clc;clear;
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 % Set your seed here if desired
 %  n = 50000;
 %  r1 = 5; r2 = 10;

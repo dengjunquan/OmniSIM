@@ -1,5 +1,8 @@
 function mirrorpoint =  pointMirror(p0,p1,p2)
-
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 x1 = p1(1);
 y1 = p1(2);
 x2 = p2(1);

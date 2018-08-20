@@ -1,38 +1,8 @@
 function newdata=struct2jdata(data,varargin)
-%
-% newdata=struct2jdata(data,opt,...)
-%
-% convert a JData object (in the form of a struct array) into an array
-%
-% authors:Qianqian Fang (q.fang <at> neu.edu)
-%
-% input:
-%      data: a struct array. If data contains JData keywords in the first
-%            level children, these fields are parsed and regrouped into a
-%            data object (arrays, trees, graphs etc) based on JData 
-%            specification. The JData keywords are
-%               "_ArrayType_", "_ArraySize_", "_ArrayData_"
-%               "_ArrayIsSparse_", "_ArrayIsComplex_"
-%      opt: (optional) a list of 'Param',value pairs for additional options 
-%           The supported options include
-%               'Recursive', if set to 1, will apply the conversion to 
-%                            every child; 0 to disable
-%
-% output:
-%      newdata: the covnerted data if the input data does contain a JData 
-%               structure; otherwise, the same as the input.
-%
-% examples:
-%      obj=struct('_ArrayType_','double','_ArraySize_',[2 3],
-%                 '_ArrayIsSparse_',1 ,'_ArrayData_',null);
-%      ubjdata=struct2jdata(obj);
-%
-% license:
-%     BSD License, see LICENSE_BSD.txt files for details 
-%
-% -- this function is part of JSONLab toolbox (http://iso2mesh.sf.net/cgi-bin/index.cgi?jsonlab)
-%
-
+% -----------------------------------------------------
+% -- Fast mmWave Ray Tracing Simulator (v0.2)
+% -- 2018 (c) junquan.deng@aalto.fi
+% -----------------------------------------------------
 fn=fieldnames(data);
 newdata=data;
 len=length(data);
