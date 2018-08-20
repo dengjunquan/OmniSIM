@@ -4,4 +4,3 @@ Start with the file RunMe.m.
 The Ray tracing results are stored in the variable path_arrays.
 ====
 <img src='result.jpg'>
-====
