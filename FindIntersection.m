@@ -3,7 +3,7 @@ function [shootpoint,wallid,phiout] = FindIntersection(startxy,phi,wallsMatrix)
 % -- Fast mmWave Ray Tracing Simulator (v0.2)
 % -- 2018 (c) junquan.deng@aalto.fi
 % -----------------------------------------------------
-raylength = 1000;
+raylength = 100000;
 rayxys    = [startxy(1) + cos(phi)*1e-4       startxy(2) + sin(phi)*1e-4...
              startxy(1) + cos(phi)*raylength  startxy(2) + sin(phi)*raylength];
 

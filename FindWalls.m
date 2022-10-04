@@ -1,11 +1,13 @@
-function [walls,polygons] = FindWalls(filename)
+function [walls,polygons,centerLonLat] = FindWalls(filename)
 % -----------------------------------------------------
 % -- Fast mmWave Ray Tracing Simulator (v0.2)
 % -- 2018 (c) junquan.deng@aalto.fi
 % -----------------------------------------------------
 index = 0;
-buildings = buildingFootprint(filename);
-walls = cell(length(buildings)*10,1);
+[buildings,centerLonLat] = buildingFootprint(filename);
+
+walls = cell(length(buildings)*20,1);
+
 polygons = cell(length(buildings),1);
 for i = 1:length(buildings)
     polygon = buildings{i};

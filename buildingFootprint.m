@@ -1,4 +1,4 @@
-function walls = buildingFootprint(jsonfilename)
+function [walls,centerLonLat] = buildingFootprint(jsonfilename)
 % -----------------------------------------------------
 % -- Fast mmWave Ray Tracing Simulator (v0.2)
 % -- 2018 (c) junquan.deng@aalto.fi
@@ -22,8 +22,13 @@ end
 
 walls(index+1:end)  = [];
 
+centerLonLat = zeros(1,2);
+
 centerLongInDegrees = walls{round(length(walls))}(1,1);
 centerLatInDegrees  = walls{round(length(walls))}(1,2);
+
+centerLonLat(1) = centerLongInDegrees;
+centerLonLat(2) = centerLatInDegrees;
 
 % Set up "Constants"
 m1 = 111132.92;     % latitude calculation term 1
@@ -35,7 +40,7 @@ p2 = -93.5;         % longitude calculation term 2
 p3 = 0.118;         % longitude calculation term 3
 
 % Calculate the length of a degree of latitude and longitude in meters
-lat = centerLatInDegrees;
+lat = centerLatInDegrees.*pi/180;
 latlen = m1 + (m2 * cos(2 * lat)) + (m3 * cos(4 * lat)) + (m4 * cos(6 * lat));
 longlen = (p1 * cos(lat)) + (p2 * cos(3 * lat)) + (p3 * cos(5 * lat));
 

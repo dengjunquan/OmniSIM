@@ -1,0 +1,22 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "man_made": "antenna",
+                "name": "BS",
+                "communication:radio": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76478482198,
+                    35.67120265205
+                ]
+            }
+        }
+    ]
+}

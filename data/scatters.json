@@ -1,0 +1,91 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "natural": "tree",
+                "leaf_type": "broadleaved"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76536488920,
+                    35.67117904784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "natural": "tree",
+                "leaf_type": "broadleaved"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76499443464,
+                    35.67141930077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "natural": "tree",
+                "leaf_type": "broadleaved"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76476718028,
+                    35.67153816311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "natural": "tree",
+                "leaf_type": "broadleaved"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76532364143,
+                    35.67124690850
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "natural": "tree",
+                "leaf_type": "broadleaved"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76447247734,
+                    35.67085702531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "natural": "tree",
+                "leaf_type": "broadleaved"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76449115362,
+                    35.67172868002
+                ]
+            }
+        }
+    ]
+}
