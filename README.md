@@ -1,3 +1,3 @@
-# MmWave_FastRayTracing
-A fast ray tracing tool for mmWave channel simulations.
+# OmniSIM
+An open-source mmWave network-level hybrid channel simulator (OmniSIM)
 <img src='result.jpg'>
